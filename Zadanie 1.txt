@@ -1,0 +1,26 @@
+Marceli Budny 174999 Zestaw PU03
+1.
+
+a)
+
+x = 5/12
+result = cotg(x)
+
+b)
+
+A = [3 -2 3; -2 3 8; 6 4 0]
+inverse_A = inv(A)
+
+c)
+
+I = 23
+ω = 25
+E = (I*ω^2)/2
+
+d)
+
+sum = 0;
+for n = -3:50
+sum = sum + (n + 4) / (n^2 + 2);
+end
+disp(sum);

@@ -1,0 +1,15 @@
+Marceli Budny 174999 Zestaw PU03
+2.
+
+x = linspace(1, 5, 100);
+
+f1 = (x - 2) ./ (x.^2 + 4);
+f2 = 2*x.^2 - 3*x + (1./x);
+
+plot(x, f1, 'r')
+xlabel('X');
+ylabel('Y');
+title('Wykres dwóch funkcji');
+plot(x, f2, 'b')
+
+legend(['(x-2)/(x^2+4)'; '2x^2-3x+(1/x)']);
